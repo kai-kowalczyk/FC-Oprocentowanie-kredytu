@@ -52,3 +52,27 @@ wrzesień2_spłata = (1 + (inflacja_wrzesień2 + oprocentowanie) / 1200) * sierp
 październik2_spłata = (1 + (inflacja_październik2 + oprocentowanie) / 1200) * wrzesień2_spłata - kwota_raty
 listopad2_spłata = (1 + (inflacja_listopad2 + oprocentowanie) / 1200) * październik2_spłata - kwota_raty
 grudzień2_spłata = (1 + (inflacja_grudzień2 + oprocentowanie) / 1200) * listopad2_spłata - kwota_raty
+print(f'Styczeń 1. roku: Twoja pozostała kwota kredytu to {styczeń1_spłata}, to {kwota_pożyczki - styczeń1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Luty 1. roku: Twoja pozostała kwota kredytu to {luty1_spłata}, to {styczeń1_spłata - luty1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Marzec 1. roku: Twoja pozostała kwota kredytu to {marzec1_spłata}, to {luty1_spłata - marzec1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Kwiecień 1. roku: Twoja pozostała kwota kredytu to {kwiecień1_spłata}, to {marzec1_spłata - kwiecień1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Maj 1. roku: Twoja pozostała kwota kredytu to {maj1_spłata}, to {kwiecień1_spłata - maj1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Czerwiec 1. roku: Twoja pozostała kwota kredytu to {czerwiec1_spłata}, to {maj1_spłata - czerwiec1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Lipiec 1. roku: Twoja pozostała kwota kredytu to {lipiec1_spłata}, to {czerwiec1_spłata - lipiec1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Sierpień 1. roku: Twoja pozostała kwota kredytu to {sierpień1_spłata}, to {lipiec1_spłata - sierpień1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Wrzesień 1. roku: Twoja pozostała kwota kredytu to {wrzesień1_spłata}, to {sierpień1_spłata - wrzesień1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Październik 1. roku: Twoja pozostała kwota kredytu to {październik1_spłata}, to {wrzesień1_spłata - październik1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Listopad 1. roku: Twoja pozostała kwota kredytu to {listopad1_spłata}, to {październik1_spłata - listopad1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Grudzień 1. roku: Twoja pozostała kwota kredytu to {grudzień1_spłata}, to {listopad1_spłata - grudzień1_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Styczeń 2. roku: Twoja pozostała kwota kredytu to {styczeń2_spłata}, to {grudzień1_spłata - styczeń2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Luty 2. roku: Twoja pozostała kwota kredytu to {luty2_spłata}, to {styczeń2_spłata - luty2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Marzec 2. roku: Twoja pozostała kwota kredytu to {marzec2_spłata}, to {luty2_spłata - marzec2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Kwiecień 2. roku: Twoja pozostała kwota kredytu to {kwiecień2_spłata}, to {marzec2_spłata - kwiecień2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Maj 2. roku: Twoja pozostała kwota kredytu to {maj2_spłata}, to {kwiecień2_spłata - maj2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Czerwiec 2. roku: Twoja pozostała kwota kredytu to {czerwiec2_spłata}, to {maj2_spłata - czerwiec2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Lipiec 2. roku: Twoja pozostała kwota kredytu to {lipiec2_spłata}, to {czerwiec2_spłata - lipiec2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Sierpień 2. roku: Twoja pozostała kwota kredytu to {sierpień2_spłata}, to {lipiec2_spłata - sierpień2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Wrzesień 2. roku: Twoja pozostała kwota kredytu to {wrzesień2_spłata}, to {sierpień2_spłata - wrzesień2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Październik 2. roku: Twoja pozostała kwota kredytu to {październik2_spłata}, to {wrzesień2_spłata - październik2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Listopad 2. roku: Twoja pozostała kwota kredytu to {listopad2_spłata}, to {październik2_spłata - listopad2_spłata} mniej niż w poprzednim miesiącu. \n'
+f'Grudzień 2. roku: Twoja pozostała kwota kredytu to {grudzień2_spłata}, to {listopad2_spłata - grudzień2_spłata} mniej niż w poprzednim miesiącu.')
